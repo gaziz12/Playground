@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj": {}
+    "/Users/gaziz1/dev/ActionsPlayground/helloWorkConsoleApp/helloWorkConsoleApp.csproj": {}
   },
   "projects": {
-    "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj": {
+    "/Users/gaziz1/dev/ActionsPlayground/helloWorkConsoleApp/helloWorkConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj",
+        "projectUniqueName": "/Users/gaziz1/dev/ActionsPlayground/helloWorkConsoleApp/helloWorkConsoleApp.csproj",
         "projectName": "helloWorkConsoleApp",
-        "projectPath": "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\gaziz\\.nuget\\packages\\",
-        "outputPath": "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\obj\\",
+        "projectPath": "/Users/gaziz1/dev/ActionsPlayground/helloWorkConsoleApp/helloWorkConsoleApp.csproj",
+        "packagesPath": "/Users/gaziz1/.nuget/packages/",
+        "outputPath": "/Users/gaziz1/dev/ActionsPlayground/helloWorkConsoleApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gaziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/gaziz1/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
