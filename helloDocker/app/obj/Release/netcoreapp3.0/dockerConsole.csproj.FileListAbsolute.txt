@@ -1,0 +1,12 @@
+D:\github\ActionsPlayground\helloDocker\app\bin\Release\netcoreapp3.0\dockerConsole.exe
+D:\github\ActionsPlayground\helloDocker\app\bin\Release\netcoreapp3.0\dockerConsole.deps.json
+D:\github\ActionsPlayground\helloDocker\app\bin\Release\netcoreapp3.0\dockerConsole.runtimeconfig.json
+D:\github\ActionsPlayground\helloDocker\app\bin\Release\netcoreapp3.0\dockerConsole.runtimeconfig.dev.json
+D:\github\ActionsPlayground\helloDocker\app\bin\Release\netcoreapp3.0\dockerConsole.dll
+D:\github\ActionsPlayground\helloDocker\app\bin\Release\netcoreapp3.0\dockerConsole.pdb
+D:\github\ActionsPlayground\helloDocker\app\obj\Release\netcoreapp3.0\dockerConsole.csprojAssemblyReference.cache
+D:\github\ActionsPlayground\helloDocker\app\obj\Release\netcoreapp3.0\dockerConsole.csproj.CoreCompileInputs.cache
+D:\github\ActionsPlayground\helloDocker\app\obj\Release\netcoreapp3.0\dockerConsole.AssemblyInfoInputs.cache
+D:\github\ActionsPlayground\helloDocker\app\obj\Release\netcoreapp3.0\dockerConsole.AssemblyInfo.cs
+D:\github\ActionsPlayground\helloDocker\app\obj\Release\netcoreapp3.0\dockerConsole.dll
+D:\github\ActionsPlayground\helloDocker\app\obj\Release\netcoreapp3.0\dockerConsole.pdb
