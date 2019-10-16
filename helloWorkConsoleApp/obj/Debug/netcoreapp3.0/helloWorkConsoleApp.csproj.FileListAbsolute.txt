@@ -1,0 +1,11 @@
+d:\github\ActionsPlayground\helloWorkConsoleApp\bin\Debug\netcoreapp3.0\helloWorkConsoleApp.exe
+d:\github\ActionsPlayground\helloWorkConsoleApp\bin\Debug\netcoreapp3.0\helloWorkConsoleApp.deps.json
+d:\github\ActionsPlayground\helloWorkConsoleApp\bin\Debug\netcoreapp3.0\helloWorkConsoleApp.runtimeconfig.json
+d:\github\ActionsPlayground\helloWorkConsoleApp\bin\Debug\netcoreapp3.0\helloWorkConsoleApp.runtimeconfig.dev.json
+d:\github\ActionsPlayground\helloWorkConsoleApp\bin\Debug\netcoreapp3.0\helloWorkConsoleApp.dll
+d:\github\ActionsPlayground\helloWorkConsoleApp\bin\Debug\netcoreapp3.0\helloWorkConsoleApp.pdb
+d:\github\ActionsPlayground\helloWorkConsoleApp\obj\Debug\netcoreapp3.0\helloWorkConsoleApp.csprojAssemblyReference.cache
+d:\github\ActionsPlayground\helloWorkConsoleApp\obj\Debug\netcoreapp3.0\helloWorkConsoleApp.AssemblyInfoInputs.cache
+d:\github\ActionsPlayground\helloWorkConsoleApp\obj\Debug\netcoreapp3.0\helloWorkConsoleApp.AssemblyInfo.cs
+d:\github\ActionsPlayground\helloWorkConsoleApp\obj\Debug\netcoreapp3.0\helloWorkConsoleApp.dll
+d:\github\ActionsPlayground\helloWorkConsoleApp\obj\Debug\netcoreapp3.0\helloWorkConsoleApp.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj": {}
+    "d:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj": {}
   },
   "projects": {
-    "D:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj": {
+    "d:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj",
+        "projectUniqueName": "d:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj",
         "projectName": "dockerConsole",
-        "projectPath": "D:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj",
+        "projectPath": "d:\\github\\ActionsPlayground\\helloDocker\\app\\dockerConsole.csproj",
         "packagesPath": "C:\\Users\\gaziz\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\ActionsPlayground\\helloDocker\\app\\obj\\",
+        "outputPath": "d:\\github\\ActionsPlayground\\helloDocker\\app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -56,7 +56,8 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

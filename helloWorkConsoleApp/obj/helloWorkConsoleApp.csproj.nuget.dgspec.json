@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj": {}
+    "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj": {
+    "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj",
+        "projectUniqueName": "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj",
         "projectName": "helloWorkConsoleApp",
-        "projectPath": "D:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj",
+        "projectPath": "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\helloWorkConsoleApp.csproj",
         "packagesPath": "C:\\Users\\gaziz\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\ActionsPlayground\\helloWorkConsoleApp\\obj\\",
+        "outputPath": "d:\\github\\ActionsPlayground\\helloWorkConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -56,7 +56,8 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

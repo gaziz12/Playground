@@ -5,7 +5,6 @@ D:\github\ActionsPlayground\helloDocker\app\bin\Debug\netcoreapp3.0\dockerConsol
 D:\github\ActionsPlayground\helloDocker\app\bin\Debug\netcoreapp3.0\dockerConsole.dll
 D:\github\ActionsPlayground\helloDocker\app\bin\Debug\netcoreapp3.0\dockerConsole.pdb
 D:\github\ActionsPlayground\helloDocker\app\obj\Debug\netcoreapp3.0\dockerConsole.csprojAssemblyReference.cache
-D:\github\ActionsPlayground\helloDocker\app\obj\Debug\netcoreapp3.0\dockerConsole.csproj.CoreCompileInputs.cache
 D:\github\ActionsPlayground\helloDocker\app\obj\Debug\netcoreapp3.0\dockerConsole.AssemblyInfoInputs.cache
 D:\github\ActionsPlayground\helloDocker\app\obj\Debug\netcoreapp3.0\dockerConsole.AssemblyInfo.cs
 D:\github\ActionsPlayground\helloDocker\app\obj\Debug\netcoreapp3.0\dockerConsole.dll
