@@ -1,6 +1,9 @@
 name: Docker Image CI
 
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
 
@@ -15,7 +18,8 @@ jobs:
       with:
         dotnet-version: 3.0.100
     - name: Build with dotnet
-      run: dotnet build .\\helloDocker\\app\\dockerConsole.csproj -c Release
+      run: |
+        dotnet build .\\helloDocker\\app\\dockerConsole.csproj -c Release
     - name: Publish with dotnet
       run: dotnet publish .\\helloDocker\\app\\dockerConsole.csproj -c Release
     - uses: actions/checkout@v1
