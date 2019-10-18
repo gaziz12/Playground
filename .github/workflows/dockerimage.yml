@@ -18,10 +18,9 @@ jobs:
       with:
         dotnet-version: 3.0.100
     - name: Build with dotnet
-      run: |
-        dotnet build .\\helloDocker\\app\\dockerConsole.csproj -c Release
+      run: dotnet build /helloDocker/app/dockerConsole.csproj -c Release
     - name: Publish with dotnet
-      run: dotnet publish .\\helloDocker\\app\\dockerConsole.csproj -c Release
+      run: dotnet publish /helloDocker/app/dockerConsole.csproj -c Release
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build -f .\\helloDocker\\Dockerfile -t my-image-name:$(date +%s) .
+      run: docker build -f /helloDocker/Dockerfile -t my-image-name:$(date +%s) .
