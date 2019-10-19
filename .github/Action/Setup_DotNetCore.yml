@@ -1,4 +1,7 @@
-name: Setup .NET Core
-uses: actions/setup-dotnet@v1
-with:
-  dotnet-version: 3.0.100
+jobs:
+  Setup .Net Core
+    name: Setup .Net Core
+      steps:
+        - uses: actions/setup-dotnet@v1
+          with:
+            dotnet-version: 3.0.100
