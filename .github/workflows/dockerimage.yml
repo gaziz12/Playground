@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
-    - uses: ${GITHUB_WORKSPACE}/.github/actions/Setup_DotNetCore
+    - uses: ./.github/actions/Setup_DotNetCore
     - name: Build with dotnet
       run: dotnet build ${GITHUB_WORKSPACE}/helloDocker/app/dockerConsole.csproj -c Release
     - name: Publish with dotnet
