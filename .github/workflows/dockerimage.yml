@@ -23,6 +23,6 @@ jobs:
         dotnet-version: 3.0.100
       
     - name: Build with dotnet
-      run: dotnet build ${GITHUB_WORKSPACE}/launchDarkly/app/launchDarkly.csproj -c Release
+      run: dotnet build ${GITHUB_WORKSPACE}/launchDarkly/launchDarkly.csproj -c Release
     - name: Publish with dotnet
-      run: dotnet publish ${GITHUB_WORKSPACE}/launchDarkly/app/launchDarkly.csproj -c Release
+      run: dotnet publish ${GITHUB_WORKSPACE}/launchDarkly/launchDarkly.csproj -c Release
