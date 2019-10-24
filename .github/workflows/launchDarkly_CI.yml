@@ -1,4 +1,4 @@
-name: CI\CD for launchDarkly 
+name: CI for launchDarkly 
 
 on:
   push:
