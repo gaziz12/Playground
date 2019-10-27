@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dockerConsole", "app\dockerConsole.csproj", "{DF258887-67B2-48C6-8383-788949F69E6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dockerConsole", "src\app\dockerConsole.csproj", "{DF258887-67B2-48C6-8383-788949F69E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
