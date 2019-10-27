@@ -23,8 +23,8 @@ jobs:
         dotnet-version: 3.0.100
       
     - name: Build with dotnet
-      run: dotnet build ${GITHUB_WORKSPACE}/helloDocker/app/dockerConsole.csproj -c Release
+      run: dotnet build ${GITHUB_WORKSPACE}/src/helloDocker/app/dockerConsole.csproj -c Release
     - name: Publish with dotnet
-      run: dotnet publish ${GITHUB_WORKSPACE}/helloDocker/app/dockerConsole.csproj -c Release
+      run: dotnet publish ${GITHUB_WORKSPACE}/src/helloDocker/app/dockerConsole.csproj -c Release
     - name: Build the Docker image
-      run: docker build -f ${GITHUB_WORKSPACE}/helloDocker/Dockerfile -t my-image-name:$(date +%s) .
+      run: docker build -f ${GITHUB_WORKSPACE}/src/helloDocker/Dockerfile -t my-image-name:$(date +%s) .
