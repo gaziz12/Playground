@@ -5,7 +5,7 @@ on:
     branches: 
       - master
     paths:
-      - 'helloDocker/*'
+      - 'src/helloDocker/*'
 
 jobs:
 
