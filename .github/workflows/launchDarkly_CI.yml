@@ -20,9 +20,12 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with: 
-        dotnet-version: 3.0.100
-      
+        dotnet-version: 3.0.100  
     - name: Build with dotnet
-      run: dotnet build ${GITHUB_WORKSPACE}/src/launchDarkly/launchDarkly.csproj -c Release
+      run: dotnet build ${GITHUB_WORKSPACE}/src/launchDarkly/launchDarkly.csproj -c Release -o output/launchDarkly/build
     - name: Publish with dotnet
-      run: dotnet publish ${GITHUB_WORKSPACE}/src/launchDarkly/launchDarkly.csproj -c Release
+      run: dotnet publish ${GITHUB_WORKSPACE}/src/launchDarkly/launchDarkly.csproj -c Release -o output/launchDarkly/publish
+    - uses: actions/upload-artifact@master
+      with:
+        name: my-artifact
+        path: output
