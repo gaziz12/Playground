@@ -17,7 +17,6 @@ jobs:
 
     name: Node ${{ matrix.node }} sample
     env:
-        Akris.Console.Dir_path: ${{github.workspace}}/Akris-Console/
         Akris.Console.Dir_PATH: ${{github.workspace}}/Akris-Console/
         Akris.Console.Dir1: ${{github.workspace}}
     #name: self hosted sample
