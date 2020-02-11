@@ -1,1 +1,40 @@
 
+name: Build Akris Console
+
+on:
+  pull_request:
+    branches: 
+    - sprint/*
+    paths: 'Akris-Console/*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['10','12']
+
+    name: Node ${{ matrix.node }} sample
+    #name: self hosted sample
+    steps:
+    - name: Configure Variables
+      run: |
+        echo ${{github.ref}}
+        echo ${{github.head_ref}}
+        echo ${{github.base_ref}}
+        echo ${{github.event_name}}
+        echo ${{github.actor}}
+        echo ${{github.repository}}
+        echo ${{github.event}}
+        echo ${{github.event_path}}
+        echo ${{github.workflow}}
+        echo ${{github.workspace}}/Akris-Console/
+    - uses: actions/checkout@v1
+      env:
+        Akris.Console.Dir: ${{github.workspace}}/Akris-Console/
+      with:
+        fetch-depth: 1  
+    - uses: actions/setup-node@v1
+      with:
+        #node-version: '12'
+        node-version: ${{ matrix.node }}
