@@ -11,4 +11,4 @@
 
 
 
-![Build Status](https://github.com/gaziz12/ActionsPlayground/.github/workflows/Build%Akris%Console/badge.svg)
+![Build Status](https://github.com/gaziz12/ActionsPlayground/.github/workflows/Build%Akris%Console/badge.svg?branch=sprint/1)
