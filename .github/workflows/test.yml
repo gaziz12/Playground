@@ -28,7 +28,7 @@ jobs:
         Akris.Console.Dir_path4: ${{github.workspace}}
       if: startsWith(github.base_ref, 'sprint/')
       run: |
-
+        echo ${{runner.os}}-node-${{ hashFiles('${{github.workspace}}/Akris-Console/package-lock.json')}}
         echo $Akris.Console.Dir1
         echo "$Akris.Console.Dir1"
         echo {$Akris.Console.Dir1}
