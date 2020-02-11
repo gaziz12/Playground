@@ -16,11 +16,16 @@ jobs:
         node: ['10','12']
 
     name: Node ${{ matrix.node }} sample
+    env: |
+        Akris.Console.Dir: ${{github.workspace}}/Akris-Console/
+        Akris.Console.Dir1: ${{github.workspace}}
     #name: self hosted sample
     steps:
     - name: Configure Variables
       if: startsWith(github.base_ref, 'sprint/')
       run: |
+        echo $Akris.Console.Dir1
+        echo Akris.Console.Dir
         echo "this is sprint branch"
         echo ${{github.ref}}
         echo ${{github.head_ref}}
@@ -47,8 +52,6 @@ jobs:
         echo ${{github.workflow}}
         echo ${{github.workspace}}/Akris-Console/
     - uses: actions/checkout@v1
-      env:
-        Akris.Console.Dir: ${{github.workspace}}/Akris-Console/
       with:
         fetch-depth: 1  
     - uses: actions/setup-node@v1
