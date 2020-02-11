@@ -17,15 +17,17 @@ jobs:
 
     name: Node ${{ matrix.node }} sample
     env:
-        Akris.Console.Dir: ${{github.workspace}}/Akris-Console/
+        Akris.Console.Dir_path: ${{github.workspace}}/Akris-Console/
+        Akris.Console.Dir_PATH: ${{github.workspace}}/Akris-Console/
         Akris.Console.Dir1: ${{github.workspace}}
     #name: self hosted sample
     steps:
     - name: Configure Variables
       if: startsWith(github.base_ref, 'sprint/')
       run: |
-        echo ${{Akris.Console.Dir1}}
-        echo ${{Akris.Console.Dir}}
+        echo ${Akris.Console.Dir1}
+        echo ${Akris.Console.Dir_path}
+        echo ${Akris.Console.Dir_PATH}
         echo "this is sprint branch"
         echo ${{github.ref}}
         echo ${{github.head_ref}}
