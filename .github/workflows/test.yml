@@ -5,6 +5,7 @@ on:
   pull_request:
     branches: 
     - sprint/*
+    - master
     paths: 'Akris-Console/*'
 
 jobs:
@@ -18,7 +19,23 @@ jobs:
     #name: self hosted sample
     steps:
     - name: Configure Variables
+      if: startsWith(github.base_ref, 'sprint/')
       run: |
+        echo "this is sprint branch"
+        echo ${{github.ref}}
+        echo ${{github.head_ref}}
+        echo ${{github.base_ref}}
+        echo ${{github.event_name}}
+        echo ${{github.actor}}
+        echo ${{github.repository}}
+        echo ${{github.event}}
+        echo ${{github.event_path}}
+        echo ${{github.workflow}}
+        echo ${{github.workspace}}/Akris-Console/
+    - name: Configure Variables
+      if: startsWith(github.base_ref, 'master')
+      run: |
+        echo "this is master branch"
         echo ${{github.ref}}
         echo ${{github.head_ref}}
         echo ${{github.base_ref}}
