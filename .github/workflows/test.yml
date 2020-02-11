@@ -24,8 +24,8 @@ jobs:
     - name: Configure Variables
       if: startsWith(github.base_ref, 'sprint/')
       run: |
-        echo ${Akris.Console.Dir_path}
-        echo ${Akris.Console.Dir_PATH}
+        echo $Akris.Console.Dir_path
+        echo $Akris.Console.Dir_PATH
         echo "this is sprint branch"
         echo ${{github.ref}}
         echo ${{github.head_ref}}
